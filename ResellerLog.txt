@@ -1,0 +1,104 @@
+[2023-08-03 16:06:59]-[Main   ]-[FINEST ]-[com.ibm.mq.LoggerInitializer]-[initialiseLogs     ]: Logger initialised 
+[2023-08-03 16:07:01]-[Cashier]-[FINER  ]-[Cashier       ]-[connect            ]: Connection for cashier has been created 
+[2023-08-03 16:07:01]-[Cashier]-[INFO   ]-[Cashier       ]-[waitForRequest     ]: Starting to listen for ticket requests 
+[2023-08-03 16:07:02]-[Main   ]-[INFO   ]-[Manager       ]-[main               ]: ----- 
+[2023-08-03 16:07:02]-[Main   ]-[INFO   ]-[Manager       ]-[main               ]: Publishing advert... 
+[2023-08-03 16:07:02]-[Main   ]-[INFO   ]-[Manager       ]-[main               ]: Advert for 'European Summit' has been published 
+[2023-08-03 16:07:02]-[Main   ]-[FINE   ]-[Manager       ]-[main               ]: Waiting for 30 seconds before publishing next advert 
+[2023-08-03 16:07:02]-[Main   ]-[INFO   ]-[Manager       ]-[main               ]: ----- 
+[2023-08-03 16:07:32]-[Main   ]-[INFO   ]-[Manager       ]-[main               ]: ----- 
+[2023-08-03 16:07:32]-[Main   ]-[INFO   ]-[Manager       ]-[main               ]: Publishing advert... 
+[2023-08-03 16:07:32]-[Main   ]-[INFO   ]-[Manager       ]-[main               ]: Advert for 'Glasto' has been published 
+[2023-08-03 16:07:32]-[Main   ]-[FINE   ]-[Manager       ]-[main               ]: Waiting for 30 seconds before publishing next advert 
+[2023-08-03 16:07:32]-[Main   ]-[INFO   ]-[Manager       ]-[main               ]: ----- 
+[2023-08-03 16:08:02]-[Main   ]-[INFO   ]-[Manager       ]-[main               ]: ----- 
+[2023-08-03 16:08:02]-[Main   ]-[INFO   ]-[Manager       ]-[main               ]: Publishing advert... 
+[2023-08-03 16:08:02]-[Main   ]-[INFO   ]-[Manager       ]-[main               ]: Advert for 'IBM Think' has been published 
+[2023-08-03 16:08:02]-[Main   ]-[FINE   ]-[Manager       ]-[main               ]: Waiting for 30 seconds before publishing next advert 
+[2023-08-03 16:08:02]-[Main   ]-[INFO   ]-[Manager       ]-[main               ]: ----- 
+[2023-08-03 16:08:11]-[Cashier]-[INFO   ]-[Cashier       ]-[waitForRequest     ]: Received message 
+[2023-08-03 16:08:11]-[Cashier]-[INFO   ]-[Cashier       ]-[waitForRequest     ]: Message received: 
+  JMSMessage class: jms_text
+  JMSType:          null
+  JMSDeliveryMode:  2
+  JMSDeliveryDelay: 0
+  JMSDeliveryTime:  0
+  JMSExpiration:    0
+  JMSPriority:      4
+  JMSMessageID:     ID:414d5120514d312020202020202020202385cb6407292025
+  JMSTimestamp:     1691068091296
+  JMSCorrelationID: fe934301-3b73-4796-97c4-e7e385a660ef
+  JMSDestination:   queue:///purchase
+  JMSReplyTo:       null
+  JMSRedelivered:   false
+    JMSXAppID: com.ibm.mq.demo.Reseller    
+    JMSXDeliveryCount: 1
+    JMSXUserID: app         
+    JMS_IBM_Character_Set: UTF-8
+    JMS_IBM_Encoding: 273
+    JMS_IBM_Format: MQSTR   
+    JMS_IBM_MsgType: 8
+    JMS_IBM_PutApplType: 28
+    JMS_IBM_PutDate: 20230803
+    JMS_IBM_PutTime: 13081129
+{"eventID":0,"numberRequested":1} 
+[2023-08-03 16:08:11]-[Cashier]-[INFO   ]-[Cashier       ]-[processMessage     ]: Sent response 
+[2023-08-03 16:08:13]-[Cashier]-[INFO   ]-[Cashier       ]-[waitForRequest     ]: Received message 
+[2023-08-03 16:08:13]-[Cashier]-[INFO   ]-[Cashier       ]-[waitForRequest     ]: Message received: 
+  JMSMessage class: jms_text
+  JMSType:          null
+  JMSDeliveryMode:  2
+  JMSDeliveryDelay: 0
+  JMSDeliveryTime:  0
+  JMSExpiration:    0
+  JMSPriority:      4
+  JMSMessageID:     ID:414d5120514d312020202020202020202385cb6408292025
+  JMSTimestamp:     1691068093150
+  JMSCorrelationID: 374bf6c5-f13c-48c8-85a0-00231b06e35d
+  JMSDestination:   queue:///purchase
+  JMSReplyTo:       null
+  JMSRedelivered:   false
+    JMSXAppID: com.ibm.mq.demo.Reseller    
+    JMSXDeliveryCount: 1
+    JMSXUserID: app         
+    JMS_IBM_Character_Set: UTF-8
+    JMS_IBM_Encoding: 273
+    JMS_IBM_Format: MQSTR   
+    JMS_IBM_MsgType: 8
+    JMS_IBM_PutApplType: 28
+    JMS_IBM_PutDate: 20230803
+    JMS_IBM_PutTime: 13081315
+{"eventID":1,"numberRequested":1} 
+[2023-08-03 16:08:13]-[Cashier]-[INFO   ]-[Cashier       ]-[processMessage     ]: Sent response 
+[2023-08-03 16:08:14]-[Cashier]-[INFO   ]-[Cashier       ]-[waitForRequest     ]: Received message 
+[2023-08-03 16:08:14]-[Cashier]-[INFO   ]-[Cashier       ]-[waitForRequest     ]: Message received: 
+  JMSMessage class: jms_text
+  JMSType:          null
+  JMSDeliveryMode:  2
+  JMSDeliveryDelay: 0
+  JMSDeliveryTime:  0
+  JMSExpiration:    0
+  JMSPriority:      4
+  JMSMessageID:     ID:414d5120514d312020202020202020202385cb6409292025
+  JMSTimestamp:     1691068094554
+  JMSCorrelationID: d9ca596d-7ecb-4180-ab2c-69565c072803
+  JMSDestination:   queue:///purchase
+  JMSReplyTo:       null
+  JMSRedelivered:   false
+    JMSXAppID: com.ibm.mq.demo.Reseller    
+    JMSXDeliveryCount: 1
+    JMSXUserID: app         
+    JMS_IBM_Character_Set: UTF-8
+    JMS_IBM_Encoding: 273
+    JMS_IBM_Format: MQSTR   
+    JMS_IBM_MsgType: 8
+    JMS_IBM_PutApplType: 28
+    JMS_IBM_PutDate: 20230803
+    JMS_IBM_PutTime: 13081455
+{"eventID":2,"numberRequested":1} 
+[2023-08-03 16:08:14]-[Cashier]-[INFO   ]-[Cashier       ]-[processMessage     ]: Sent response 
+[2023-08-03 16:08:32]-[Main   ]-[INFO   ]-[Manager       ]-[main               ]: ----- 
+[2023-08-03 16:08:32]-[Main   ]-[INFO   ]-[Manager       ]-[main               ]: Publishing advert... 
+[2023-08-03 16:08:32]-[Main   ]-[INFO   ]-[Manager       ]-[main               ]: Advert for 'Beta Workshop' has been published 
+[2023-08-03 16:08:32]-[Main   ]-[FINE   ]-[Manager       ]-[main               ]: Waiting for 30 seconds before publishing next advert 
+[2023-08-03 16:08:32]-[Main   ]-[INFO   ]-[Manager       ]-[main               ]: ----- 
